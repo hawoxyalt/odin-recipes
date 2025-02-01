@@ -1,0 +1,38 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+h1 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+li {
+    list-style-position: inside;
+}
+
+#recipes, li, h2 {
+    padding-left: 40px;
+}
+
+ul li, ol li, p  {
+    padding-left: 80px;
+    font-size: 20px;
+}
+img {
+    padding-left: 34%;
+}
+a p {
+    background-color: grey;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    padding: 40px 50px;
+    display:inline-block;
+}
