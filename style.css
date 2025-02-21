@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     font-size: 36px;
+    margin: 12px 0px;
 }
 li {
     list-style-position: inside;
@@ -25,14 +26,27 @@ ul li, ol li, p  {
     font-size: 20px;
 }
 img {
-    padding-left: 34%;
+    margin: auto;
+    display: block;
 }
-a p {
+.home-button {
     background-color: grey;
     color: white;
     font-weight: 700;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     padding: 40px 50px;
-    display:inline-block;
+    display: block;
+    margin: 0px 92% 0px 0;
+}
+.content {
+    background-color: rgb(245, 221, 66);
+    padding: 20px 0px;
+    margin: 12px 0px;
+}
+div.block {
+    background-color: black;
+    color: white;
+    padding: 12px 0px;
+    margin: 0px 48px;
 }
